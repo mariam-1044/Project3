@@ -1,6 +1,6 @@
 .parent-icons{
-     margin-left: 85%;
-     margin-top: 16%;
+     margin-left: 80%;
+     margin-top: 200px;
      position: fixed;
      z-index: 10;
 }
@@ -60,7 +60,6 @@
     opacity: 0.5;
     transition: 1s;
 } 
-
 .overlay::before{
     position: absolute;
     z-index: 2;
@@ -78,7 +77,6 @@
     opacity: 0.5;
     transition: 1s;
 } 
-
 .card-img-overlay{
     background-color: rgba(98, 168, 202, 0.5) !important;
 }
@@ -95,22 +93,16 @@
 .img-skew{
      clip-path: polygon(0 0 ,  100%  0 , 100% 100%, 15% 100% );
 }
-
 .line{
     width: 30%;
     height: 2px;
     border-radius: 50px;
 }
-
 .link{
     display: block;
 }
-
 .copy{
     text-shadow:  2px 0 2px #000000;
 }
 
-/* .rotate:hover{
-    transform: rotate(180deg);
-} */
  
